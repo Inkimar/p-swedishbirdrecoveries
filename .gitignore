@@ -37,3 +37,8 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+
+# for production, wildcard 
+docker-compose/certs/nrm.se.crt
+docker-compose/certs/nrm.se.key
