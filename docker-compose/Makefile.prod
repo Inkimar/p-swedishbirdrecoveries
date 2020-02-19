@@ -1,0 +1,6 @@
+#! make
+
+all-production-up:
+	docker-compose -f docker-compose.prod.yml up
+
+# if conflict then 'docker rm xyzxx'
